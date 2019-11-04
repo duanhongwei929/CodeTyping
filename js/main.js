@@ -28,10 +28,10 @@ function writeMarkdown(markdown, fn){
 }
 
 var css1 = `/* 
- * 面试官你好，我是XXX
- * 只用文字作做我介绍太单调了
- * 我就用代码来介绍吧
- * 首先准备一些样式
+ * 代码练习
+ * 用代码写字
+ * 首先
+ * 准备一些样式
  */
 *{
   transition: all 1s;
@@ -60,7 +60,7 @@ html{
 #paper > .content {
  display: block;
 }
-/* 于是我就可以在白纸上写字了，请看右边 */
+/* 现在可以在白纸上写字了 */
 `
 
 var css2 = `
@@ -69,16 +69,18 @@ var css2 = `
  */
 `
 var md = `
-# 自我介绍
-我叫 XXX
-联系方式：
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
+# 用来占字的绕口令
+白石白又滑
+搬来白石搭白塔
+白石塔 白石塔
+白石搭石塔
+白塔白石搭
+搭好白石塔
+白塔白又滑
+
 `
 let css3 = `
 /*
- * 这就是我的会动的简历
  * 谢谢观看
  */
 `
